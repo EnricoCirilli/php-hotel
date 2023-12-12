@@ -53,7 +53,8 @@ $hotels = [
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-
+ <main class="container">
+        <h1 class="py-3">HOTELS PHP</h1>
   <table class="table table-striped">
           <thead>
             <tr class="table-danger">
@@ -78,5 +79,6 @@ $hotels = [
             ?>
           </tbody>  
         </table>
+        </main>
 </body>
 </html>
